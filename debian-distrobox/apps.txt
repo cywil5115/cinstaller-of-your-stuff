@@ -1,0 +1,4 @@
+nala
+tldr
+bat
+pipewire-pulse

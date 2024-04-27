@@ -1,0 +1,3 @@
+ranger --copy-config=all
+bat cache --build
+source ~/.zshrc
