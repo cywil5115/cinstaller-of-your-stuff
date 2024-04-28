@@ -11,7 +11,6 @@ eza
 v4l2loopback-dkms
 zoxide
 fzf
-thefuck
 reaper
 tmux
 #EDITOR
