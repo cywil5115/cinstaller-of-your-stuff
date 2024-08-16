@@ -38,7 +38,7 @@ def read_app_list(file_path):
                     print(f"- {app}")
                 if not user_confirmation():
                     print("Operation aborted by user.")
-                    sys.exit()
+                    pass
             else:
                 print("No applications to install.")
             time.sleep(1)
@@ -68,7 +68,7 @@ def check_package_manager(preferred_manager=None):
     raise EnvironmentError("No supported package manager found on this system.")
 
 def install_applications(applications, package_manager):
-    command_base = [package_manager, 'install'] if package_manager not in ['pacman', 'brew'] else [package_manager, '-S']
+    command_base = [package_manager, 'install'] if package_manager not in ['pacman'] else [package_manager, '-S']
     for app in applications:
         command = command_base + [app, '-y']
         try:

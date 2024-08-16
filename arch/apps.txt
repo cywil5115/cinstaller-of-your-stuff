@@ -1,3 +1,4 @@
+appimagelauncher
 paru
 tldr
 ranger

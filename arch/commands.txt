@@ -1,3 +1,4 @@
 ranger --copy-config=all
 bat cache --build
 source ~/.zshrc
+flatpak install flathub com.github.k4zmu2a.spacecadetpinball
